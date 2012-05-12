@@ -1,9 +1,3 @@
-*.class
-
-# Package Files #
-*.jar
-*.war
-*.ear
 import java.util.*;
 import java.awt.*;
 import java.util.logging.Level;

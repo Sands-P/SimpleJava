@@ -4,3 +4,39 @@
 *.jar
 *.war
 *.ear
+import java.util.*;
+import java.awt.*;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+class SimpleJava {
+    public void print(String printchars) {
+        
+        System.out.print(printchars);
+        
+    }
+    public void println(String printchars) {
+        
+        System.out.println(printchars);
+        
+    }
+    public void sleep(int time) { //not tested!!!
+        try {
+            Thread.sleep(time);
+        } catch (InterruptedException ex) {
+            Logger.getLogger(SimpleJava.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+    public void close() {
+        
+        System.exit(0);
+        
+    }
+    
+    public void report(Error e) { //not tested!!!
+        
+        System.out.println(e);
+        
+    }
+    //Made by Jeffrey T-C
+}
